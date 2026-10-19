@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun conectaWS() {
-        val uri = URI("ws://server.domini.tld")
+        val uri = URI("ws://10.0.2.2.")
 
         // Utiliza wss:// si la conexión es segura
         val wsclient = MyWebSocketClient(uri)
